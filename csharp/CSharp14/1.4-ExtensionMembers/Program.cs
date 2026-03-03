@@ -204,8 +204,8 @@ static async Task DemonstrateUserDefinedOperators()
     Console.WriteLine();
 
     Console.WriteLine("   Vector Operations:");
-    Console.WriteLine($"   Dot Product v1·v2 = {Vector3DMathOperators.DotProduct(v1, v2):F2}");
-    Console.WriteLine($"   Cross Product v1×v2 = {Vector3DMathOperators.CrossProduct(v1, v2)}");
+    Console.WriteLine($"   Dot Product v1·v2 = {Vector3D.DotProduct(v1, v2):F2}");
+    Console.WriteLine($"   Cross Product v1×v2 = {Vector3D.CrossProduct(v1, v2)}");
     Console.WriteLine($"   v1 projected onto v2 = {v1.ProjectOnto(v2)}");
 
     var normal = new Vector3D(0, 1, 0); // Y-axis

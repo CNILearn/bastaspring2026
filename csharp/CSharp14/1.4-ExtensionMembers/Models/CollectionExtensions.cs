@@ -41,7 +41,7 @@ public static class CollectionExtensions
         public IEnumerable<T> GetRandomElements(int count)
         {
             if (source.IsNullOrEmpty() || count <= 0)
-                return Enumerable.Empty<T>();
+                return [];
 
             List<T> list = [.. source];
             

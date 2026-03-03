@@ -8,7 +8,7 @@ This sample demonstrates **C# 14 Extension Blocks** using the actual C# 14 `exte
 
 - **Extension Properties**: Add computed properties to existing types
 - **Extension Methods**: Enhance types with additional functionality
-- **User-Defined Operators**: Organize mathematical operations in clean blocks
+- **Extension Operators**: Organize mathematical operations in clean blocks
 - **Type Safety**: Full IntelliSense support and compile-time checking
 - **Performance**: Better performance than traditional extension methods
 - **Organization**: Logical grouping of related extensions
@@ -16,13 +16,13 @@ This sample demonstrates **C# 14 Extension Blocks** using the actual C# 14 `exte
 ## 📋 Prerequisites
 
 - **.NET 10 SDK** (version 10.0.101 or later)
-- **Visual Studio 2024** or **VS Code** with C# extension
+- **Visual Studio 2026** or **VS Code** with C# extension
 - **C# 14 Language Support** (LangVersion=preview)
 
 ## 🏗️ Sample Structure
 
 ```
-ExtensionBlocks/
+ExtensionMethods/
 ├── Models/
 │   ├── Person.cs                    # Extension properties for person calculations
 │   ├── Rectangle.cs                 # Extension properties for geometric calculations  
