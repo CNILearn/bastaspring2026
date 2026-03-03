@@ -1,7 +1,7 @@
 namespace ExtensionBlocks.Models;
 
 /// <summary>
-/// C# 14 Extension Block for IEnumerable&lt;T&gt; demonstrating collection extension methods.
+/// C# 14 Extension Members for IEnumerable&lt;T&gt; demonstrating collection extension methods.
 /// Shows how extension methods can enhance collection operations.
 /// 
 /// Uses the actual C# 14 extension syntax that compiles and runs in .NET 10 RC 1.
