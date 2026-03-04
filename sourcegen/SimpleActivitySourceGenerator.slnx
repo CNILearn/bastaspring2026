@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SimpleActivitySourceGenerator/SimpleActivitySourceGenerator/SimpleActivitySourceGenerator.csproj" />
+  <Project Path="SimpleActivitySourceGenerator/SimpleActivitySourceGenerator.Sample/SimpleActivitySourceGenerator.Sample.csproj" />
+  <Project Path="SimpleActivitySourceGenerator/SimpleActivitySourceGenerator.Tests/SimpleActivitySourceGenerator.Tests.csproj" />
+</Solution>

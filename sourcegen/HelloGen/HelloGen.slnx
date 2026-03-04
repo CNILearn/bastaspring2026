@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HelloGen/HelloGen.csproj" />
+  <Project Path="HelloGen.Tests/HelloGen.Tests.csproj" />
+  <Project Path="HelloGen.Client/HelloGen.Client.csproj" Id="9cf3300b-58e1-41ce-92aa-5af3a98d7118" />
+  <Project Path="HelloGen.SnapshotTests/HelloGen.SnapshotTests.csproj" />
+</Solution>

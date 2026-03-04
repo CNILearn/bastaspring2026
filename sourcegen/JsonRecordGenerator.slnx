@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="JsonRecordGenerator/JsonRecordGenerator/JsonRecordGenerator.csproj" />
+  <Project Path="JsonRecordGenerator/JsonRecordGenerator.Sample/JsonRecordGenerator.Sample.csproj" />
+  <Project Path="JsonRecordGenerator/JsonRecordGenerator.Tests/JsonRecordGenerator.Tests.csproj" />
+</Solution>

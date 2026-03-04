@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 29.99
+    }
+  ],
+  "categories": ["electronics", "computers"],
+  "store": {
+    "name": "Tech Store",
+    "location": "Downtown"
+  }
+}

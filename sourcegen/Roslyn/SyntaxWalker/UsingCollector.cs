@@ -7,7 +7,7 @@ namespace SyntaxWalker;
 // and invoke the Visit method with the root node of the tree (SyntaxTree) you want to walk.
 class UsingCollector : CSharpSyntaxWalker
 {
-    private readonly List<UsingDirectiveSyntax> _usingDirectives = new();
+    private readonly List<UsingDirectiveSyntax> _usingDirectives = [];
     public IEnumerable<UsingDirectiveSyntax> UsingDirectives => _usingDirectives;
     public override void VisitUsingDirective(UsingDirectiveSyntax node)
     {
