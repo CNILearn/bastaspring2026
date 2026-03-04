@@ -1,0 +1,35 @@
+# EditorConfig Sample Configuration
+# This file demonstrates how to configure the EditorConfig source generator
+
+root = true
+
+[*]
+# Standard EditorConfig settings
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.cs]
+# C# specific settings
+indent_size = 4
+
+# Custom source generator settings
+# These control how the EditorConfigGenerator creates code
+
+# Enable logging code generation
+custom_generator_enable_logging = true
+
+# Set naming convention for validation (pascal_case, camel_case, snake_case)
+custom_generator_naming_style = pascal_case
+
+# Control feature complexity (basic, advanced, enterprise)
+custom_generator_feature_level = advanced
+
+# Customize the namespace for generated code
+custom_generator_namespace = EditorConfigGenerator.Sample.Generated
+
+# Set prefix for generated class names
+custom_generator_class_prefix = Demo

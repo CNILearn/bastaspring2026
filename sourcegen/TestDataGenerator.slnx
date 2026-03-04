@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TestDataGenerator/TestDataGenerator/TestDataGenerator.csproj" />
+  <Project Path="TestDataGenerator/TestDataGenerator.Sample/TestDataGenerator.Sample.csproj" />
+  <Project Path="TestDataGenerator/TestDataGenerator.Tests/TestDataGenerator.Tests.csproj" />
+  <Project Path="TestDataGenerator/TestDataGenerator.SnapshotTests/TestDataGenerator.SnapshotTests.csproj" />
+</Solution>

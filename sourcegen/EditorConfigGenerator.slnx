@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="EditorConfigGenerator/EditorConfigGenerator.Sample/EditorConfigGenerator.Sample.csproj" />
+  <Project Path="EditorConfigGenerator/EditorConfigGenerator.Tests/EditorConfigGenerator.Tests.csproj" />
+  <Project Path="EditorConfigGenerator/EditorConfigGenerator/EditorConfigGenerator.csproj" />
+</Solution>
