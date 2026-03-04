@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsonRecordGenerator\JsonRecordGenerator.csproj"
+        OutputItemType="Analyzer" 
+        ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="sample-data.json" />
+    <AdditionalFiles Include="nested-example.json" />
+    <AdditionalFiles Include="array-example.json" />
+  </ItemGroup>
+
+</Project>
